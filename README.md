@@ -11,3 +11,8 @@
 <p>No geral, aprender HTML5, CSS3 e JavaScript com o professor Mayk Brito foi uma experiência incrível e valiosa para minha carreira. Ele é um professor dedicado e comprometido com o sucesso de seus alunos, e eu recomendo fortemente o seu curso para qualquer pessoa interessada em aprender sobre desenvolvimento de web.</p>
 
 </div>
+<div align="center">
+ <img src="https://github.com/hochiminh1996/html5-css3-study/blob/master/Modulo_1/img/html-5.png" title="HTML5">
+ <img src="https://github.com/hochiminh1996/html5-css3-study/blob/master/Modulo_1/img/css-3.png" title="CSS3">
+ <img src="https://cdn-icons-png.flaticon.com/512/919/919828.png" height="200" width="200" title="Javascript">
+</div>
