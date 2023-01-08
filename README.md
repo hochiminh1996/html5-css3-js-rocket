@@ -16,3 +16,5 @@
  <img src="https://github.com/hochiminh1996/html5-css3-study/blob/master/Modulo_1/img/css-3.png" title="CSS3">
  <img src="https://cdn-icons-png.flaticon.com/512/919/919828.png" height="200" width="200" title="Javascript">
 </div>
+
+<hr>
