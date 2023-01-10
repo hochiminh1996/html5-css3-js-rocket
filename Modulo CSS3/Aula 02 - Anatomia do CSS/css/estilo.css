@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #e9e7ea;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+}
+
+/* 
+   1 SELECTOR
+   2 DECLARATION
+   3 PROPERTIES
+   4 PROPERTY VALUE
+
+    H1 é o nosso seletor
+    entre {} temos a declaração e também temos propriedade e valor.
+    Por exemplo, color, background-color e padding são propriedades. Após o : temos os valores da propriedade.
+*/
