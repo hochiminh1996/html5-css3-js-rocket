@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/* 
+    ORDEM DOS SELETORES DO MAIS FRACO P/ O MAIS FORTE
+
+    SELETOR UNIVERSAL -> Valor 0
+    SELETOR DE ELEMENTO -> Valor 1
+    SELETOR DE CLASSE -> Valor 10
+    SELETOR DE ID -> Valor100
+    SELETOR INLINE ->  1000
+
+    !important passa por cima da ordem de todos
+
+*/
+
+h1{
+    color: red;
+    
+}
+
+.titulo{
+    color: #09f;
+}
+
+#ti{
+    color: #ccc;
+}
+
+h1{
+    color: pink !important;
+}
