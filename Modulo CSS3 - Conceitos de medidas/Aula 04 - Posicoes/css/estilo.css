@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+/* 
+    Posições
+
+    Representa um conjunto de cordenadas 2D
+    TOP, RIGHT,BOTTOM E LEFT e CENTER
+
+    *NÃO CONFUNDIR COM POSITION*
+*/
+*{
+    margin:0;
+    padding:0;
+}
+
+.box{
+    width: 400px;
+    height: 200px;
+    
+    background-image: url(http://source.unsplash.com/random);
+    /* colocando uma imagem ao fundo */
+    background-repeat: no-repeat;
+    /* pedindo para a imagem n repetir  */
+
+    background-position: center center;
+    /* centralizando o foco da imagem */
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .8);
+    opacity: .7;
+    /* border-radius: 50%; */
+}
+
+.box:hover{
+    opacity: 1;
+    transition: all linear .5s;
+    width: 800px;
+    height: 580px;
+
+}
