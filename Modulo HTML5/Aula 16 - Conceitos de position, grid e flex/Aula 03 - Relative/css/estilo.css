@@ -1,0 +1,47 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --font-especial:"Bebas Neue";
+    --font-padrao: "Courier New";
+}
+
+/* 
+    POSITION : Serve para controlar onde, na página, o elemento irá ficar, alterando o fluxo normal dos elementos.
+
+
+    **O Fluxo normal dos elementos é um abaixo do outro.
+
+    Nome : position
+    Value : static, relative, absolute e fixed
+
+    Relative : Mantém o fluxo normal. No entanto, é possível modificar o fluxo com algumas propriedades.
+
+    Além disso, fica disponível as propriedades : right, left, top, bottom e z-index.
+
+*/
+
+/* ELEMENTO COM RELATIVE */
+.box1{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+
+.box2{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: static;
+}
+
+.box3{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: static;
+}
+

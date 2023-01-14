@@ -1,0 +1,55 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --font-especial:"Bebas Neue";
+    --font-padrao: "Courier New";
+}
+
+/* 
+    POSITION : Serve para controlar onde, na página, o elemento irá ficar, alterando o fluxo normal dos elementos.
+
+
+    **O Fluxo normal dos elementos é um abaixo do outro.
+
+    Nome : position
+    Value : static, relative, absolute e fixed
+
+    
+    Podemos utilizar o z-index para sobrepor os elementos
+
+
+*/
+
+/* ELEMENTO COM ABSOLUTE */
+
+.box{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.box1{
+    background-color: red;
+    position: absolute;
+    z-index: 1;
+
+    
+}
+
+.box2{
+    background-color: black;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 2;
+    /* O elemento 2 irá sobrepor os outros 2 */
+}
+
+.box3{
+    background-color: green;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+
+}
+

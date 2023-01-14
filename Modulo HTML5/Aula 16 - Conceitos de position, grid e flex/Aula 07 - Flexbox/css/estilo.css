@@ -1,0 +1,52 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --font-especial:"Bebas Neue";
+    --font-padrao: "Courier New";
+}
+
+/* 
+    Nos permite posicionar os elementos dentro da caixa PAI.
+    Controle em uma dimensão (horizontal ou vertical)
+    Alinhamento, direcionamento, ordenar e tamanhos
+
+    Flex-direction
+    Qual a direção do flex: horizontal ou vertical
+    row | column
+
+
+    Alinhamento
+    justify-content
+    align-items
+
+
+
+*/
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.box1{
+    background-color: red;
+    
+}
+
+.box2{
+    background-color: black;
+}
+
+.box3{
+    background-color: green;
+
+}
+
