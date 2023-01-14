@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+
+
+:root{
+    /* font-size: 50%; */
+
+    /* 
+        A fonte terá um tamanho fixo de 50% em relação ao valor padrão, que é 16px.
+        Ou seja, tudo terá 50% de 16 de font-size. No caso, 8px
+    */
+}
+
+li{
+    font-size: 80%;
+    /* Será 80% do elemento pai e assim por diante */
+}
