@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Formulários Conceitos</title>
+</head>
+
+<body>
+</body>
+<main>
+    <!-- 
+        Cria uma lista semântica de dados que conecta campos
+
+        É necessário adicionar o campo list no imput e referenciá-lo no datalist
+
+        É quase um "select"
+            
+           
+    -->
+    <input type="text" list="color-list">
+
+    <datalist id="color-list">
+        <option value="Cor 1"></option>
+        <option value="Cor 2"></option>
+        <option value="Cor não"></option>
+    </datalist>
+
+    <!-- O input text está conectado aos datalist
+    O  dados do datalist aparecerão no input
+    -->
+
+
+    <datalist id="color-list-hex">
+        <option value="#a9a9a9"></option>
+        <option value="#b9b9b9"></option>
+        <option value="#c9c9c9"></option>
+        <option value="#0099ff"></option>
+    </datalist>
+    <input type="color" list="color-list-hex">
+        <!-- O input color está conectado aos datalist 
+        O  dados do datalist aparecerão no input color
+        -->
+
+
+
+
+</main>
+
+</html>
