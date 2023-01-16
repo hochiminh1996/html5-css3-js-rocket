@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+</head>
+
+<body>
+    <main>
+        <!-- 
+            File
+
+            -> Value
+                    Enviará contém apenas um único arquivo
+            -> Accept
+                    Descreve que tipos de arquivos serão aceitos
+                    Exemplo .doc,docx,.pdf, .png, .svg, .jpeg...
+            -> Files 
+                    A lista de arquivo ou arquivos
+            -> Multiple
+
+
+            accept : image/*  -> qualquer tipo de imagem
+            accept : .pdf   -> apenas pdf
+
+
+            O atributo multiple permite, ao abrir a caixa de seleção, diversos arquivos 
+
+
+            **Para enviar arquivos, é necessário colocar alguns atributos no form para que tudo ocorra de forma correta :
+            method = "post"
+            enctype = "multipart/form-data"
+
+            Se n for usar input do tipo file, não é necessário colocar.
+
+         -->
+        <form action="" method="POST" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Formulário</legend>
+                
+                <label for="arq">Anexo : <input type="file" id="arq" accept=".pdf" required multiple></label>
+
+
+        
+        
+                
+                <br>
+                <input type="submit">
+            </fieldset>
+        </form>
+
+    </main>
+</body>
+
+</html>
