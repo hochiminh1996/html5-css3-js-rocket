@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optgroup</title>
+</head>
+
+<body>
+    <main>
+        <!-- 
+           Select ->
+           Grupo de opções
+
+         -->
+        <fieldset>
+            <legend>Dados</legend>
+
+            <label for="pets">Choose your pets</label>
+
+            <select name="pets" id="pets">
+                <option value="">ESCOLHA</option>
+                <optgroup label="domesticos">
+                    <option value="Cachorro">Cachorro</option>
+                    <option value="Gato">Gato</option>
+                </optgroup>
+
+                <optgroup label="selvagens">
+                    <option value="jaguatirica">Jaguatirica</option>
+                    <option value="Raposa">Raposa</option>
+                    <option value="Tigre">Tigre</option>
+                </optgroup>
+
+            </select>
+        </fieldset>
+
+    </main>
+</body>
+
+</html>
