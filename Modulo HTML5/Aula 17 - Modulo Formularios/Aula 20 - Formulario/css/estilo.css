@@ -1,0 +1,116 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font-padrao: "Bebas Neue";    
+    font-weight: normal;
+    --color-input: rgba(0,0,0,.8);
+}
+
+main{
+    /* border: 1px solid #d9d9d9; */
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #d9d9d9;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+    justify-content: center;
+}
+
+fieldset{
+    border: 1px solid #d9d9d9;
+    padding: 20px 20px;
+    font-family: var(--font-padrao);
+
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    height: 70vh;
+    margin: 0 auto;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+
+    
+}
+
+fieldset > legend{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+form label{
+    display: block;
+    font-size: 1.4em;
+    /* font-weight: bold; */
+}
+
+.camp{
+    height: 30px;
+    width: 300px;
+    padding: 20px 5px;
+    font-family: var(--font-padrao);
+    font-size: 1.2em;
+    /* text-indent: 1px; */
+    margin-bottom: 10px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    outline: none;
+    background-color: var(--color-input)
+}
+
+::placeholder{
+    color: #e9e7ea;
+    /* font-weight: bold; */
+}
+
+
+.camp:focus, #mensagem:focus{
+    background-color: #09f;
+    border: 1px solid #09f;
+    color: white;
+    box-shadow: 0px 0px 20px #09f;
+    transition: all linear .5s;
+}
+#mensagem{
+    width: 300px;
+    height: 100px;
+    outline: none;
+    font-family: var(--font-padrao);
+    font-size: 1.4em;
+    border: 1px solid #d9d9d9;
+    padding: 5px 5px;
+    background-color: var(--color-input);
+
+}
+
+#btn{
+    display: block;
+    width: 300px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #e9e9e9;
+    color: #e9e7ea;
+    font-family: var(--font-padrao);
+    font-size: 1.2em;
+    color: #e9e7ea;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: var(--color-input)
+}
+
+#btn:hover{
+    background-color: #09f;
+    color: #e9e7ea;
+    border: 1px solid #09f;
+    font-size: 1.4em;
+    transition: all linear .5s;
+}
