@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+</head>
+
+<body>
+    <main>
+        <!-- 
+            <input type="checkbox">
+
+            - Caixas podem ser marcadas
+            - Selecionar um ou múltiplos valores para serem enviados.
+            - Se não for selecionado, não será enviado nenhuma dado.
+
+            Atributos
+            - Globais
+            - Value
+                * Valor que aquele campo contém
+                * Se não estiver presente, o padrão será on
+
+
+
+            * Coloque o name igual para que, posteriormente, os checkbox selecionados sejam pegos como um bloco pelo back-end
+         -->
+
+        <fieldset>
+            <legend>Suas escolhas</legend>
+
+            <div>
+                <input type="checkbox" id="coding" name="interesse">
+                <label for="coding">Coding</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="interesse" id="music">
+
+                <label for="music">Music</label>
+            </div>
+
+        </fieldset>
+
+    </main>
+</body>
+
+</html>
