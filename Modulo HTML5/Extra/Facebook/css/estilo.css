@@ -90,6 +90,9 @@ div#direito input{
     font-size: 17px;
 }
 
+div#direito input:focus{
+    border: 1px solid #1B74E4;
+}
 #btn{
     width: 365px;
     border-radius: 5px;
@@ -152,13 +155,6 @@ div#campo_inferior-2 a{
     font-weight: bolder;
 }
 
-
-@media (max-width:650px){
-    section{
-        display: flex;
-    }
-}
-
 @media (max-width:800px){
     section{
         display: flex;
@@ -173,6 +169,5 @@ div#campo_inferior-2 a{
         text-align: center;
         margin-bottom: -7em;
     }
-
 
 }
