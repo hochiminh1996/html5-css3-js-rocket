@@ -1,4 +1,4 @@
-# Aprendendo HTML5, CSS3 e JS
+# Aprendendo HTML5, CSS3 e Javascript
 
 <div align="justify">
   
