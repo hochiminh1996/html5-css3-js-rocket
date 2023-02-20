@@ -1,6 +1,8 @@
 /*
-    Estrutura de repetição for :
-    possui três estrutura : definição do contador, a condição e o incrementador ou decrementador
+    Estrutura de repetição for :É uma estrutura de controle de fluxo que executa um bloco de código enquanto a condição satisfeita, ou verdadeira. Não sendo mais satisfeita a condição, sendo false, ele encerra o loop.
+
+
+    FOR possui três estrutura : definição do contador, a condição e o incrementador ou decrementador
 
     for(declaração do contador; condição; incrementar/decrementar){
         bloco
