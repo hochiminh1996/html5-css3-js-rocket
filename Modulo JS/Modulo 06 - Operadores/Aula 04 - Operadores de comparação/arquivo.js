@@ -2,6 +2,16 @@
 
     Operadores de comparação
 
+    == : igual 
+    === : comparação estrita
+    != : diferente
+    > : maior
+    < : menor
+    >=: maior ou igual a
+    <=: menor ou igual a
+
+
+
 */
 
 
@@ -28,3 +38,8 @@ console.log(one!=1); // false. Pois são iguais
 
 console.log(one !=="1");// true. Porque ele considera o tipo de dado
 
+console.log(one > two);//false
+console.log(one < two);//true
+console.log(one >= two);//false
+console.log(one<=two);//true
+console.log(one!=two);// true
