@@ -1,10 +1,10 @@
 /*
-    Estrutura condicional while.
+    Estrutura de repetição e controle de fluxo : while
 
     É uma estrutura de controle de fluxo que executa um bloco de código enquanto a condição satisfeita, ou verdadeira. Não sendo mais satisfeita a condição, sendo false, ele encerra o loop.
 
 
-    Usar 
+    Usando em momentos em que não sabemos a quantidade de vezes que o laço será executado.
 */
 
 let i = 0;
