@@ -29,6 +29,7 @@ let familia = {
     total_expensive: function () {//método que soma todos os valoes de income
         let total = 0;
 
+        //for of percorrendo arrays
         for (let value of this.expenses) {
             total += value;
         }
@@ -41,6 +42,7 @@ let familia = {
 function sum(array) {
     let total = 0;
 
+    //for of percorrendo arrays
     for (let value of array) {
         total += value;
     }
@@ -52,7 +54,7 @@ function sum(array) {
 function calcular_balanco() {
 
     let total_income = familia.total_income(); // acessando o método totalincome que retorna o total de entrada
-    
+
     let total_expensive = familia.total_expensive();//acessando o método total expensive que retorna o total de saida
 
 
