@@ -102,13 +102,16 @@ function countCategory() {
 
 // Encontrar livros do author
 function findAuthor(author) {
-    let booksByAuthor = [];
+    let booksByAuthor = [];// vai armazenar os livros do author. Se houver
 
 
-    for (let categorias of library) {
-        for (let books of categorias.books) {
+    for (let categorias of library) {//vai percorrer o nosso array que é constituito de objetos
+
+        for (let books of categorias.books) {//vai acessar os arrays books do objeto categoria
             if (author.toLowerCase() == books.author.toLowerCase()) {//já adicionando o tratamento de case sensentive
-                booksByAuthor.push(`${books.author} - ${books.title}`)
+                booksByAuthor.push(`${books.author} - ${books.title}`);
+                //se existir o autor, ele vai jogar todos os livros dentro no nosso array criado nessa função
+
             }
         }
     }
@@ -121,10 +124,11 @@ function findAuthor(author) {
 function countAuthors() {
     let total_authors = []; // array de autores
 
-    for (let categorias of library) {
-        for (let autores of categorias.books) {
-            if (total_authors.indexOf(autores.author) == -1) {
+    for (let categorias of library) {//vai percorrer o nosso array principal
+        for (let autores of categorias.books) {//vai acessar os arrays dos objetos categoria
+            if (total_authors.indexOf(autores.author) == -1) {//-1 significa q ele não encontrou o "autor" dentro do nosso array criado. Ai ele adiciona
                 total_authors.push(autores.author);
+
             }
         }
     }
@@ -136,10 +140,11 @@ function countAuthors() {
 //verificar se um livro existe
 function booksExists(book) {
 
-    for (let livraria of library) {
-        for (let books of livraria.books) {
-            if (book.toLowerCase() == books.title.toLowerCase()) {
+    for (let livraria of library) {//acessa o nosso array que é formado por diversos obj
+        for (let books of livraria.books) {//acessa os arrays de cada cadegoria
+            if (book.toLowerCase() == books.title.toLowerCase()) {//verifica se o livro existe dentro do nosso array
                 return `Localizado : ${books.title}, ${books.author}`;
+                //retorna o livro, se houver
             }
 
         }
@@ -179,34 +184,36 @@ function addBooks(categoria, author, book) {
         if (categories.category.toLowerCase() == categoria.toLowerCase()) {
             //verificando se a categoria existe. Se sim, podemos partir para a verificação do livro, se ele também já existe. Nesse caso, teremos que percorrer o array books dentro do objeto categoria
             for (let books of categories.books) {
-                if (book.length == 0) {
+                if (book.length == 0) {//verifica se não está vazia a string
                     console.log(`Você não digitou o livro`);
-                    return;
+                    return;// return é ÓTIMO. Ele sai da função e n executa + nada se ele entrar nesse if
                 } else
-                    if (books.title == book) {
+                    if (books.title == book) {//se ele localizar o livro dentro da biblioteca
                         console.log(`O livro ${books.title} já existe`);
-                        return;
+                        return;//encerra a função na hora.
                     }
             }
 
-            //objeto livro
+            //criando um objeto livro
             const newBook = {
                 title: book,
                 author: author
             }
 
+            //adicionado o livro dentro da biblioteca => library
             categories.books.push(newBook);
             console.log(`${book} adicionado com sucesso`);
-            return;
+            return;//encerra a função
         }
 
 
     }
 
+    //cai aqui se a categoria não existir
     console.log("Categoria não existe. Você precisa criá-lá antes")
 }
 
-// função principal
+// função principal -> descomente o código
 function main() {
     let search, name, total_authors, add_categoria;
 
@@ -239,14 +246,13 @@ function main() {
 
     // countCategory();
 
-    // adicionando livros em uma categoria
+    // adicionando livros em uma categoria. Passa 3 parâmetros. Ele vai verificar se a categoria passada existe. Se existir, ele verifica se o livro passada já existe. Se existir categoria e n o titulo do livro, ai ele adiciona dentro da biblioteca
 
     addBooks("Comunismo", "Kramptin", "O Manifesto do Partido Comunista");
     addBooks("Ficção Científica", "Gerge Orwell", "1984");
     addBooks("Comunismo", "Lenin", "O Estado e a Revolução");/////
 
 
-
-    viewBooks();
+    viewBooks();//retorna todo os livros da biblioteca
 
 }
