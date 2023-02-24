@@ -2,7 +2,7 @@
 
 <div align="justify">
   
-<p>O aprendizado de HTML5, CSS3 e JavaScript com o professor Mayk Brito foi muito enriquecedor. Ele é altamente capacitado e dedicado a ensinar suas habilidades em desenvolvimento web para que possamos ter sucesso no mundo da tecnologia.</p>
+<p color="red">O aprendizado de HTML5, CSS3 e JavaScript com o professor Mayk Brito foi muito enriquecedor. Ele é altamente capacitado e dedicado a ensinar suas habilidades em desenvolvimento web para que possamos ter sucesso no mundo da tecnologia.</p>
 
 <p>Começamos pelos fundamentos de HTML5, incluindo tags, elementos e atributos, e logo avançamos para a sintaxe e recursos mais avançados. Em seguida, aprendemos sobre o CSS3, uma linguagem de estilo usada para estilizar o layout e a aparência de uma página da web. Ele explicou de maneira clara e concisa como usar o CSS3 para criar designs atraentes e responsivos que se adaptam a diferentes tamanhos de tela.</p>
 
