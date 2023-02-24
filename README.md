@@ -17,4 +17,3 @@
  <img src="https://cdn-icons-png.flaticon.com/512/919/919828.png" height="200" width="200" title="Javascript">
 </div>
 
-<hr>
