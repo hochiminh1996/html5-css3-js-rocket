@@ -1,4 +1,4 @@
-# Aprendendo HTML5, CSS3 e Javascript
+# <h1 align="center">Aprendendo HTML5, CSS3 e Javascript</h1>
 
 <div align="justify">
   
