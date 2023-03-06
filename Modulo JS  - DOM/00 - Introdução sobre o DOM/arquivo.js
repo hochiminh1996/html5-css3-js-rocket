@@ -1,0 +1,16 @@
+/*
+    DOM : Document Object Model.
+    É um objeto js que representa o HTML e todos os seus elementos. O DOM é filho de um objeto maior do JS que se chama window
+
+    *  É O HTML CONVERTIDO PARA O OBJETO JS
+    *  API QUE REPRESENTA E INTERAGE COM O HTML. (API SERVE PARA INTERADIR, ALGO NO MEIO DO CAMINHO, TIPO UMA CAMPANHIA DE CASA)
+    *  É UMA ESTRUTURA DE ÁRVORE DO TIPO ÁRVORE, CRIADO PELO BROWSER
+    *  PROPRIEDADE E MÉTODOS
+    
+    Para que serve o DOM?
+    * JAVASCRIPT USA A DOM PARA MANIPULAR E MODIFICAR O HTML
+    * MANIPULA O HTML USANDO O JS
+    * SÓ É POSSÍVEL PROGRAMAR NA WEB, NO CASO EVENTOS, POR CAUSA DO DOM.
+    
+
+*/
