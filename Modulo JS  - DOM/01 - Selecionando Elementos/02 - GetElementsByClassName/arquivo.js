@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", main);
 
 
-// pegando seletores do tipo classe
+// pegando seletores do tipo name
 function main() {
     const titulo = document.getElementsByClassName("titulo");
     //  a busca por seletor class, que possui vários, retorna um coleção de html : [n é um array]
