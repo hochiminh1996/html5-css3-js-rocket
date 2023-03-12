@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", main);
-// adicionando um evento ao carregar o DOM.
+// adicionando um evento que irá chamar a função principal ao carregar o DOM
 
 
 
