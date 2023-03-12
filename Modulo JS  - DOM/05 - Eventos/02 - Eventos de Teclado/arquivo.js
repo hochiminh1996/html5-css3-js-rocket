@@ -6,6 +6,9 @@ document.addEventListener("DOMContentLoaded", main);
 // keyup (ou onkeyup) -> processa quando vc solta a tecla (gostei mais desse)
 // keypress (ou onkeypress) -> processa quando vc pressiona
 
+
+// O MAIS ACONSELHÁVEL É USAR O ADDEVENTLISTENER P/ EVENTOS. Se vc usar o clássico elemento.onClick = function(){} ele irá executar apenas o último evento daquele tipo. O AddEvent você cria diversos eventos para o msm elemento sem sobrescrever
+
 function main() {
     const input = document.querySelector("#label-1");
     input.focus();
